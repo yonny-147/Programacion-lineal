@@ -31,8 +31,7 @@ while intentos > 0:
     b_guess = float(input("Adivina la intersección con el eje y (b): "))
 
     # Comprobamos si la adivinanza es correcta
-    if abs(m_guess - m) < 0.1 and abs(b_guess - b) < 0.1:
-        print("¡Correcto! La ecuación es y = {:.2f}x + {:.2f}".format(m, b))
+    if abs(m_guess - m) < 0.1 and abs(b_guess - b) < 0.1:        print("¡Correcto! La ecuación es y = {:.2f}x + {:.2f}".format(m, b))
         break
     else:
         intentos -= 1
